@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* yellow: ffc815 */
+    /* dark grey: 292929 */
+    /* light grey: 585858 */
+    /* Racing Sans One */
+  }
+html{
+  font-size: 10px;
+  background-color: black;
+}  
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    background-color: black;
+    position: fixed;
+    width: 100%;  
+    border-bottom: 0.4rem solid #ffc815;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.logo {
+ font-family: "Racing Sans One";
+font-size: 1.8rem;
+}
+.logo span {
+  color: #ffc815;
+}
+#anchors{
+  text-align: right;
+   padding-top: 0.4rem;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 0.4rem;
+ 
+    }
+nav a:hover{
+    text-decoration: underline;
+}
+header{
+  font-size: 1.8rem;
+}
+#home-section {
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("images/SANTA_CRUZ.png");
+  background-size: cover;
+  text-shadow: 1px 1px 5px black, 0 0 18px black, -1px -1px 5px black;
+  font-size: 1.8rem;
+}
+.little {
+  font-size: 1.2rem;
+}
+#cars-section{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+#cars-section header{
+    padding: 3rem 0; 
+}
+#cars-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.car-tile{
+  background-color: #292929;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  padding: 2.2rem 1.2rem;
+  width: 100%;
+}
+.car-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 1.4rem;
+  width: 40%;
+}
+.car-tittle{
+  font-size: 2.8rem;
+  font-family: 'Racing Sans One';
+  margin-bottom: 2rem;
+}
+.price{
+  color: #ffc815;
+  margin-top: .5rem;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+.car-button{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border:  2px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.car-image {
+  margin: 0;
+  padding: 0;
+  display:block;
+  max-width: 500px;
+  width: 60%;
+  }
+
+#contact-section{
+  border-top: 0.4rem solid #ffc815;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+#contact-section header{
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+
+  html{
+    font-size: 12px;
+    background-color: black;
+  } 
+  #home-section {
+    background-position: 0% 37%;
+  }
+  .car-tile{
+    flex-direction: row;
+    width: 500px;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+}
+
+

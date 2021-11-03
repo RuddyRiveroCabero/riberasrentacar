@@ -1,2 +1,2 @@
 # riberasrentacar
-client web page
+landing page of riberas rent a car
